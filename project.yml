@@ -1,0 +1,38 @@
+name: MailAssistant
+options:
+  bundleIdPrefix: com.swiftkoog
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+
+packages:
+  swift-koog:
+    url: https://github.com/nwudoebuka/swift-koog
+    from: 1.0.0
+  GoogleSignIn:
+    url: https://github.com/google/GoogleSignIn-iOS
+    from: 7.0.0
+
+targets:
+  MailAssistant:
+    type: application
+    platform: iOS
+    sources:
+      - Sources/MailAssistant
+    resources:
+      - path: Sources/MailAssistant/Resources
+        type: folder
+    dependencies:
+      - package: swift-koog
+        product: SwiftKoog
+      - package: GoogleSignIn
+        product: GoogleSignIn
+    configFiles:
+      Debug: Secrets.xcconfig
+      Release: Secrets.xcconfig
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.swiftkoog.MailAssistant
+        SWIFT_VERSION: "5.9"
+        INFOPLIST_FILE: Sources/MailAssistant/Resources/Info.plist
+        CODE_SIGN_STYLE: Automatic

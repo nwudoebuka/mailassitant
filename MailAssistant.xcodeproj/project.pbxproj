@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FD3A66DDD48FF237DB4540F /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59385FDE3DA40B64DC629D92 /* ChatViewModel.swift */; };
+		21BA66997EA32C595F9C0403 /* SwiftKoog in Frameworks */ = {isa = PBXBuildFile; productRef = F224E06BF09820783690809B /* SwiftKoog */; };
+		302371E1FCA46EE9A8BF788D /* CalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB908016E04C3B2385FAF6D5 /* CalendarService.swift */; };
+		411BB4694314664E20B1A068 /* GmailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBF5A526D9EAB72D30CEC1 /* GmailService.swift */; };
+		573BC0D5E885A14DDF950CBA /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7E7B97C153EDDB97E35AA /* SignInView.swift */; };
+		6EC518C714C549950CAF25A6 /* GoogleAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA87FC78003CF4EA66D9C54 /* GoogleAuthManager.swift */; };
+		7F361F9C4846855D25A8E4B7 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93376ED27FEE8CBE030DBCFE /* ChatView.swift */; };
+		893D6ECC068A39224970011A /* MailAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3398A49EC2A4F180425B2A /* MailAssistantApp.swift */; };
+		A2174465F45E087E01C6910E /* MailAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F4D24045CCF43C9EA3D5AE /* MailAgent.swift */; };
+		B472D7C6FD5A9C34CC4A95AE /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C9B64B467E1CC22311291C /* MessageBubble.swift */; };
+		D2112C9DC4B199FB22DD2064 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = AA87901499A3C85F3BBF4C56 /* GoogleSignIn */; };
+		FA8E35EEB823D801A90CC803 /* MeetTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F195BAB7FBE460E305D6CCD7 /* MeetTool.swift */; };
+		FFE4C5BE3A60AC53A4CB95A0 /* GmailTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F4EED631B84B81A2BFCF6 /* GmailTools.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ED7E7B97C153EDDB97E35AA /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		12F4D24045CCF43C9EA3D5AE /* MailAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailAgent.swift; sourceTree = "<group>"; };
+		20C0A14EADEE4B228DEAA053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		466F4EED631B84B81A2BFCF6 /* GmailTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailTools.swift; sourceTree = "<group>"; };
+		4A3398A49EC2A4F180425B2A /* MailAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailAssistantApp.swift; sourceTree = "<group>"; };
+		59385FDE3DA40B64DC629D92 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		79DBF5A526D9EAB72D30CEC1 /* GmailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailService.swift; sourceTree = "<group>"; };
+		93376ED27FEE8CBE030DBCFE /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		A8CB87064FF108DEC7058023 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		C52A693FEB10569B114A9B1B /* MailAssistant.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MailAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C9B64B467E1CC22311291C /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		EB908016E04C3B2385FAF6D5 /* CalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarService.swift; sourceTree = "<group>"; };
+		EEA87FC78003CF4EA66D9C54 /* GoogleAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthManager.swift; sourceTree = "<group>"; };
+		F195BAB7FBE460E305D6CCD7 /* MeetTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetTool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3E0545BCF424D448173C590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BA66997EA32C595F9C0403 /* SwiftKoog in Frameworks */,
+				D2112C9DC4B199FB22DD2064 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17891403F3321F7946D789A2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EB908016E04C3B2385FAF6D5 /* CalendarService.swift */,
+				79DBF5A526D9EAB72D30CEC1 /* GmailService.swift */,
+				466F4EED631B84B81A2BFCF6 /* GmailTools.swift */,
+				F195BAB7FBE460E305D6CCD7 /* MeetTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		33C596CD4F07DCA5F90CF7A1 /* MailAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				4A3398A49EC2A4F180425B2A /* MailAssistantApp.swift */,
+				830BE3DAD02290DA31EE0924 /* Agent */,
+				33D79E1ACA9987F48CB49ADD /* Auth */,
+				DCCA2A8CCBFE0BD440C8B6F7 /* Chat */,
+				42413E1E440731EA97B6A802 /* Resources */,
+				17891403F3321F7946D789A2 /* Tools */,
+			);
+			name = MailAssistant;
+			path = Sources/MailAssistant;
+			sourceTree = "<group>";
+		};
+		33D79E1ACA9987F48CB49ADD /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EEA87FC78003CF4EA66D9C54 /* GoogleAuthManager.swift */,
+				0ED7E7B97C153EDDB97E35AA /* SignInView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		42413E1E440731EA97B6A802 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20C0A14EADEE4B228DEAA053 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		573CF9F77B2658E27FED4417 = {
+			isa = PBXGroup;
+			children = (
+				9795FD41D72408C24D241DBE /* MailAssistant */,
+				33C596CD4F07DCA5F90CF7A1 /* MailAssistant */,
+				C8EA36A23CA64750D4F10C23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		830BE3DAD02290DA31EE0924 /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				12F4D24045CCF43C9EA3D5AE /* MailAgent.swift */,
+			);
+			path = Agent;
+			sourceTree = "<group>";
+		};
+		9795FD41D72408C24D241DBE /* MailAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB87064FF108DEC7058023 /* Secrets.xcconfig */,
+			);
+			name = MailAssistant;
+			path = .;
+			sourceTree = "<group>";
+		};
+		C8EA36A23CA64750D4F10C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C52A693FEB10569B114A9B1B /* MailAssistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCCA2A8CCBFE0BD440C8B6F7 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				93376ED27FEE8CBE030DBCFE /* ChatView.swift */,
+				59385FDE3DA40B64DC629D92 /* ChatViewModel.swift */,
+				D1C9B64B467E1CC22311291C /* MessageBubble.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48AD29B282B171F37577C349 /* MailAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDAF517E5C88B623E21D292 /* Build configuration list for PBXNativeTarget "MailAssistant" */;
+			buildPhases = (
+				10B035F48C484E81A9FB08EC /* Sources */,
+				B3E0545BCF424D448173C590 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailAssistant;
+			packageProductDependencies = (
+				F224E06BF09820783690809B /* SwiftKoog */,
+				AA87901499A3C85F3BBF4C56 /* GoogleSignIn */,
+			);
+			productName = MailAssistant;
+			productReference = C52A693FEB10569B114A9B1B /* MailAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DFD7B8ADD6738CBCA42BC9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					48AD29B282B171F37577C349 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 30DBE4ABB82F56847397B8E5 /* Build configuration list for PBXProject "MailAssistant" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 573CF9F77B2658E27FED4417;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6C2214B7A21FD4517B8DB81B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				62988F2036391D1560936589 /* XCRemoteSwiftPackageReference "swift-koog" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C8EA36A23CA64750D4F10C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48AD29B282B171F37577C349 /* MailAssistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10B035F48C484E81A9FB08EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302371E1FCA46EE9A8BF788D /* CalendarService.swift in Sources */,
+				7F361F9C4846855D25A8E4B7 /* ChatView.swift in Sources */,
+				1FD3A66DDD48FF237DB4540F /* ChatViewModel.swift in Sources */,
+				411BB4694314664E20B1A068 /* GmailService.swift in Sources */,
+				FFE4C5BE3A60AC53A4CB95A0 /* GmailTools.swift in Sources */,
+				6EC518C714C549950CAF25A6 /* GoogleAuthManager.swift in Sources */,
+				A2174465F45E087E01C6910E /* MailAgent.swift in Sources */,
+				893D6ECC068A39224970011A /* MailAssistantApp.swift in Sources */,
+				FA8E35EEB823D801A90CC803 /* MeetTool.swift in Sources */,
+				B472D7C6FD5A9C34CC4A95AE /* MessageBubble.swift in Sources */,
+				573BC0D5E885A14DDF950CBA /* SignInView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40B4E45A06FA8C8DFF77213B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CB87064FF108DEC7058023 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sources/MailAssistant/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftkoog.MailAssistant;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D81BBBDE65F9A5E5128B28A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C4EA8625AAD5F98C5A20FF9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FB94F942EF27F426983F3052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CB87064FF108DEC7058023 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sources/MailAssistant/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftkoog.MailAssistant;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FDAF517E5C88B623E21D292 /* Build configuration list for PBXNativeTarget "MailAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B4E45A06FA8C8DFF77213B /* Debug */,
+				FB94F942EF27F426983F3052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		30DBE4ABB82F56847397B8E5 /* Build configuration list for PBXProject "MailAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EA8625AAD5F98C5A20FF9E /* Debug */,
+				9D81BBBDE65F9A5E5128B28A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		62988F2036391D1560936589 /* XCRemoteSwiftPackageReference "swift-koog" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nwudoebuka/swift-koog";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		6C2214B7A21FD4517B8DB81B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA87901499A3C85F3BBF4C56 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C2214B7A21FD4517B8DB81B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		F224E06BF09820783690809B /* SwiftKoog */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62988F2036391D1560936589 /* XCRemoteSwiftPackageReference "swift-koog" */;
+			productName = SwiftKoog;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4DFD7B8ADD6738CBCA42BC9A /* Project object */;
+}
