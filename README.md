@@ -75,10 +75,8 @@ Switching providers is just a matter of changing this one call — the tool defi
 
 Secrets are kept out of source via an untracked `.xcconfig` file. By default this project uses Anthropic:
 
-1. Copy the template: `cp Secrets.xcconfig.example Secrets.xcconfig`
+1. Copy the template: from `cp Secrets.xcconfig.example Secrets.xcconfig`
 2. Edit `Secrets.xcconfig` and set `LLM_API_KEY` to your real key — from the [Anthropic Console](https://console.anthropic.com) by default, or your chosen provider's key if you've switched (see below).
-
-`Secrets.xcconfig` is gitignored and wired into the build via `project.yml`'s `configFiles`, exposed through `Info.plist` as `$(LLM_API_KEY)`, and read at runtime in `MailAgent.swift` via `Bundle.main`. The key name is generic (`LLM_API_KEY`, not `ANTHROPIC_API_KEY`) since `SwiftKoog` isn't tied to one provider — swap providers in `MailAgent.swift` and this same variable carries whichever key you're using. If the key is missing, the app will `fatalError` on launch with a message pointing back here — this is a demo app, not a shipped product, so failing loudly beats failing silently.
 
 Ollama needs no key at all since it runs locally.
 
