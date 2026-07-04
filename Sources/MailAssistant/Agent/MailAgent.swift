@@ -3,8 +3,8 @@ import SwiftKoog
 
 // Injected at build time from Secrets.xcconfig (see Secrets.xcconfig.example) via Info.plist.
 private let llmAPIKey: String = {
-    guard let key = Bundle.main.object(forInfoDictionaryKey: "ANTHROPIC_API_KEY") as? String, !key.isEmpty else {
-        fatalError("ANTHROPIC_API_KEY missing — copy Secrets.xcconfig.example to Secrets.xcconfig and fill in your key.")
+    guard let key = Bundle.main.object(forInfoDictionaryKey: "LLM_API_KEY") as? String, !key.isEmpty else {
+        fatalError("LLM_API_KEY missing — copy Secrets.xcconfig.example to Secrets.xcconfig and fill in your key.")
     }
     return key
 }()

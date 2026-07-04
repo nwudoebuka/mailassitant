@@ -42,7 +42,7 @@
     </array>
     <key>GIDClientID</key>
     <string>941038768697-5krju9l8s0k2mfpd8sr67omcsbskbd2g.apps.googleusercontent.com</string>
-    <key>ANTHROPIC_API_KEY</key>
-    <string>$(ANTHROPIC_API_KEY)</string>
+    <key>LLM_API_KEY</key>
+    <string>$(LLM_API_KEY)</string>
 </dict>
 </plist>
